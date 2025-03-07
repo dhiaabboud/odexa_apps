@@ -1,5 +1,5 @@
 {
-    "name": "Odoo Facebook Messenger Integration | Odoo Instagram Messaging Integration | Bidirectional with Facebook/Instagram Graph API by Meta odexa",
+    "name": "Odoo Facebook Messenger Integration odexa",
     "version": "17.0.0.1",
     "summary": """Odoo Facebook Messenger Integration and Odoo Instagram Messaging Integration (Bidirectional) with Facebook/Instagram Graph API by Meta
         Facebook
