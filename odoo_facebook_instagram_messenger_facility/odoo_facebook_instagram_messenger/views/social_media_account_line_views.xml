@@ -1,0 +1,12 @@
+<odoo>
+    <record model="ir.ui.view" id="social_media_account_line_tree_view">
+        <field name="name">social.media.account.line.tree</field>
+        <field name="model">social.media.account.line</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="instagram_account_id" />
+                <field name="messenger_account_id" />
+            </tree>
+        </field>
+    </record>
+</odoo>

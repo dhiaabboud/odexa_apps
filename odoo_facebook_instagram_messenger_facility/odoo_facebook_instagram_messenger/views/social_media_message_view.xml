@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="social_media_messages_form" model="ir.ui.view">
+        <field name="name">social.media.messages.form</field>
+        <field name="model">social.media.messages</field>
+        <field name="arch" type="xml">
+            <form>
+<!--                <header>-->
+
+<!--                    <button name="action_fetch" string="Fetch Account" type="object" class="btn btn-primary"-->
+<!--                            icon="fa-instagram" attrs="{'invisible': ['|',('social_media_type', '=', 'messenger'),('social_media_type', '=', False)]}"/>-->
+
+<!--                    <button name="action_fetch" string="Fetch Account" type="object" class="btn btn-primary"-->
+<!--                            icon="fa-facebook-f" attrs="{'invisible': ['|',('social_media_type', '=', 'instagram'),('social_media_type', '=', False)]}"/>-->
+
+<!--                </header>-->
+                <sheet>
+<!--                     <div class="oe_button_box" name="button_box">-->
+
+<!--                         <button name="get_follower_data" type="object" class="oe_stat_button" icon="fa-facebook-f"-->
+<!--                                 attrs="{'invisible': ['|',('social_media_type', '=', 'instagram'),('social_media_type', '=', False)]}">-->
+<!--                             <field name="follower_count" readonly="1" widget="statinfo"/>-->
+<!--                         </button>-->
+
+<!--                         <button name="get_follower_data"  type="object" class="oe_stat_button"-->
+<!--                                 icon="fa-instagram" attrs="{'invisible': ['|',('social_media_type', '=', 'messenger'),('social_media_type', '=', False)]}">-->
+<!--                                                      <field name="follower_count" readonly="1" widget="statinfo"/>-->
+
+<!--                         </button>-->
+
+<!--                    </div>-->
+
+<!--                    <field name="profile_image_url" widget="image" class="oe_avatar"/>-->
+<!--                    <div class="oe_title">-->
+<!--                        <h1>-->
+<!--                            <field name="name" widget="text"/>-->
+<!--                        </h1>-->
+<!--                    </div>-->
+                        <group>
+                            <field name="message" readonly="1" force_save="1" />
+                            <field
+                            name="social_media_type"
+                            readonly="1"
+                            force_save="1"
+                        />
+                            <field name="from_partner_id" readonly="1" force_save="1" />
+                            <field name="to_partner_id" readonly="1" force_save="1" />
+                        </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="social_media_message_list" model="ir.ui.view">
+        <field name="name">social.media.messages.list</field>
+        <field name="model">social.media.messages</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="message" />
+                <field name="social_media_type" />
+                <field name="from_partner_id" />
+                <field name="to_partner_id" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_social_media_message" model="ir.actions.act_window">
+        <field name="name">Social Media Profile</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="view_mode">tree,form</field>
+        <field name="res_model">social.media.messages</field>
+    </record>
+
+
+    <menuitem
+        id="social_media_message_menu"
+        name="Social Media Messages"
+        sequence="30"
+        action="action_social_media_message"
+        parent="odoo_facebook_instagram_messenger.social_media_profile_main_menu"
+    />
+
+
+</odoo>
