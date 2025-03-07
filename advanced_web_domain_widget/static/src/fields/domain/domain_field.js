@@ -509,4 +509,4 @@ export const domainFieldBits = {
   },
 };
 
-registry.category("fields").add("terabits_domain", domainFieldBits);
+registry.category("fields").add("Odexa", domainFieldBits);

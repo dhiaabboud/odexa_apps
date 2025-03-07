@@ -66,9 +66,8 @@
                                     <br/>
                                     <br/>
                                     More Info :
-                                    <a href="https://www.terabits.xyz/simplify_access_management#bt-pills-menu"
+                                    <a
                                        target="_blank" alt="Menu Access Right">
-                                        https://www.terabits.xyz/simplify_access_management#bt-pills-menu
                                     </a>
                                 </p>
                             </page>
@@ -113,9 +112,8 @@
                                     <br/>
                                     <br/>
                                     More Info :
-                                    <a href="https://www.terabits.xyz/simplify_access_management#bt-pills-model"
+                                    <a
                                        target="_blank" alt="Menu Access Right">
-                                        ttps://www.terabits.xyz/simplify_access_management#bt-pills-model
                                     </a>
                                 </p>
                             </page>
@@ -143,9 +141,8 @@
                                     <br/>
                                     <br/>
                                     More Info :
-                                    <a href="https://www.terabits.xyz/simplify_access_management#bt-pills-fields"
+                                    <a
                                        target="_blank" alt="Menu Access Right">
-                                        https://www.terabits.xyz/simplify_access_management#bt-pills-fields
                                     </a>
                                 </p>
                             </page>
@@ -174,7 +171,7 @@
                                                 <field name="apply_domain" invisible="read_right == False"/>
                                                 <field name="model_name"
                                                        invisible="apply_domain != True  or read_right == False"/>
-                                                <field name="domain" widget="terabits_domain"
+                                                <field name="domain" widget="Odexa"
                                                        options="{'model': 'model_name'}"
                                                        invisible="apply_domain != True  or read_right == False"/>
                                             </group>
@@ -210,9 +207,8 @@
                                     condition check 'Apply Filter' checkbox.
                                     <br/>
                                     <br/>More Info :
-                                    <a href="https://www.terabits.xyz/simplify_access_management#bt-pills-domain"
+                                    <a
                                        target="_blank" alt="Menu Access Right">
-                                        https://www.terabits.xyz/simplify_access_management#bt-pills-domain
                                     </a>
                                 </p>
                             </page>
@@ -248,9 +244,8 @@
                                     <br/>And Link means any action link visible on Kanban view.
                                     <br/>
                                     <br/>More Info :
-                                    <a href="https://www.terabits.xyz/simplify_access_management#bt-pills-buttontab"
+                                    <a
                                        target="_blank" alt="Menu Access Right">
-                                        https://www.terabits.xyz/simplify_access_management#bt-pills-buttontab
                                     </a>
                                 </p>
                             </page>
@@ -278,7 +273,6 @@
                                     <br/>Here Filters means any Filters visible on List/Tree view.
                                     <br/>
                                     <br/>Group By means any Group By visible on List/Tree view.
-                                    <!--                                    <br/><br/>More Info : <a href="https://www.terabits.xyz/simplify_access_management#bt-pills-buttontab" target="_blank" alt="Menu Access Right">https://www.terabits.xyz/simplify_access_management#bt-pills-buttontab</a>-->
                                 </p>
                             </page>
                             <page string='Chatter'>
