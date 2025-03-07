@@ -1,22 +1,11 @@
-# -*- coding: utf-8 -*-
-#################################################################################
-# Author      : Terabits Technolab (<www.terabits.xyz>)
-# Copyright(c): 2021-23
-# All Rights Reserved.
-#
-# This module is copyright property of the author mentioned above.
-# You can't redistribute/reshare/recreate it for any purpose.
-#
-#################################################################################
 
 {
-    'name': 'Simplify Access Management',
+    'name': 'Autoriser acces',
     'version': '17.0.4.3.2',
     'sequence': 5,
-    'author': 'Terabits Technolab',
+    'author': 'Odexa',
     'license': 'OPL-1',
     'category': 'Tools',
-    'website': 'https://www.terabits.xyz/r/SNS',
     'summary': """All In One Access Management App for setting the correct access rights for fields, models, menus, views for any module and for any user.
         All in one access management App,
         Easier then Record rules setup,
@@ -228,7 +217,7 @@
 	
     """,
     "images": ["static/description/banner.gif"],
-    "price": "370.99",
+    "price": "220",
     "currency": "USD",
     'data': [
         'security/ir.model.access.csv',
@@ -254,5 +243,4 @@
     'application': True,
     'installable': True,
     'auto_install': False,
-    'live_test_url': 'https://www.terabits.xyz/request_demo?source=index&version=17&app=simplify_access_management',
 }
