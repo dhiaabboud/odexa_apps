@@ -40,11 +40,11 @@ class ResConfig(models.TransientModel):
                     }
                 elif ks_ai_response == 'key already generated':
                     raise ValidationError(
-                        _("key already generated.If you need assistance, feel free to contact at sales@Odexa.com"))
+                        _("key already generated.If you need assistance, feel free to contact at contact@Odexa.com"))
                 else:
-                    raise ValidationError(_("Either you have entered wrong URL path or there is some problem in sending request. If you need assistance, feel free to contact at sales@Odexa.com"))
+                    raise ValidationError(_("Either you have entered wrong URL path or there is some problem in sending request. If you need assistance, feel free to contact at contact@Odexa.com"))
             else:
-                raise ValidationError(_("Some problem in sending request.Please contact at sales@Odexa.com"))
+                raise ValidationError(_("Some problem in sending request.Please contact at contact@Odexa.com"))
         else:
             raise ValidationError(_("Please enter URL and Email ID"))
 
