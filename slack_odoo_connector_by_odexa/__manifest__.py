@@ -7,7 +7,7 @@
     'description': """Odoo is a fully integrated suite of business modules that encompass the traditional ERP functionality. Odoo Slack allows you to send updates on your Slack.
     """,
 
-    'author': "Odexa",
+    'author': "Odexa ",
 
 
     'category': 'sale',
