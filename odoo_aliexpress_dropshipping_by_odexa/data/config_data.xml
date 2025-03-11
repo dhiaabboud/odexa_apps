@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data noupdate="1">
+
+        <function model="ir.default" name="set" eval="('res.config.settings', 'ds_instant_product', True)"/>
+        <function model="ir.default" name="set" eval="('res.config.settings', 'ds_fetch_feature', True)"/>
+        <function model="ir.default" name="set" eval="('res.config.settings', 'ds_fetch_description', True)"/>
+        <function model="ir.default" name="set" eval="('res.config.settings', 'ds_fetch_packaging', True)"/>
+        <function model="ir.default" name="set" eval="('res.config.settings', 'ds_display_shipping_time', True)"/>
+        <function model="ir.default" name="set" eval="('res.config.settings', 'ds_auto_published', True)"/>
+        <function model="ir.default" name="set" eval="('res.config.settings', 'ds_price_options', 'same')"/>
+
+    </data>
+</odoo>

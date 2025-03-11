@@ -1,0 +1,23 @@
+
+.ali_pro_feature{
+    list-style-type:none;
+    font-size: 14px;
+}
+.ali_pro_feature .title{
+    color: #999;
+}
+.ali_pro_feature .desc{
+    color: #151515;
+}
+.ali_desc_title{
+    background-color: #e9e9e9;
+    margin-bottom: 16px;
+    padding: 8px 0 8px 15px;
+    font-size: 14px;
+}
+.aliexpress_image_type {
+    padding: 1px;
+    object-fit: contain;
+    height: 50px;
+    width: 50px;
+}
