@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+    <data>
+
+        <record model="ir.cron" id="aliexpress_scheduler_for_data_fetching">
+            <field name="name">Scheduler for fetching product data from Aliexpress and save it in product feed</field>
+            <field name="active" eval="False"/>
+            <field name="interval_number">1</field>
+            <field name="interval_type">days</field>
+            <field name="numbercall">-1</field>
+            <field name="doall" eval="False"/>
+            <field name="state">code</field>
+            <field name="user_id" ref="base.user_root"/>
+            <field name="model_id" ref="model_aliexpress_product"/>
+            <field name="code">model.fetch_and_update_product_feed_data_from_aliexpres()</field>
+        </record>
+
+        <record model="ir.cron" id="scheduler_for_create_or_update_product_data_from_feed">
+            <field name="name">Scheduler for creating or updating product data from the aliexpress feed</field>
+            <field name="active" eval="False"/>
+            <field name="interval_number">1</field>
+            <field name="interval_type">days</field>
+            <field name="numbercall">-1</field>
+            <field name="doall" eval="False"/>
+            <field name="state">code</field>
+            <field name="user_id" ref="base.user_root"/>
+            <field name="model_id" ref="model_aliexpress_product"/>
+            <field name="code">model.create_or_update_product_data_from_feed()</field>
+        </record>
+
+    </data>
+</odoo>
