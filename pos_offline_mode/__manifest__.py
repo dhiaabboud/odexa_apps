@@ -1,7 +1,4 @@
-# -*- coding: utf-8 -*
-# This Source Codes created by TL Technology (thanhchatvn@gmail.com)
-# Not allow resale, editing source codes
-# License: Odoo Proprietary License v1.0
+
 {
     "name": "Point Of Sale Offline Mode",
     "version": "1.0.3",
