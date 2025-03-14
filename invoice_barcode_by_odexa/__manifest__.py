@@ -1,9 +1,9 @@
 
 {
-    'name': 'Add Products With Barcode in Invoice',
+    'name': 'Scan Barcode in Invoice',
     'version': '1.0.1',
     'category': 'Accounting',
-    'author': 'Odexa ',
+    'author': 'By Odexa ',
     'support': 'contact@odexa.tech',
     'summary': """Add Products by scanning barcode to avoid mistakes and make work faster in Invoice.""",
     'description': """Add Products by scanning barcode to avoid mistakes and make work faster in Invoice.
@@ -28,7 +28,7 @@
     'installable': True,
     'auto_install': False,
     'application': False,
-    'price': 9,
-    'currency': 'USD',
+    'price': 25,
+    'currency': 'EUR',
 }
 

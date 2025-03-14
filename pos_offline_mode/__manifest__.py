@@ -3,10 +3,10 @@
 # Not allow resale, editing source codes
 # License: Odoo Proprietary License v1.0
 {
-    "name": "POS Offline mode",
+    "name": "Point Of Sale Offline Mode",
     "version": "1.0.3",
     "category": "Point of Sale",
-    "author": "Odexa",
+    "author": "By Odexa",
     "summary":
         """
         Point Of Sale Offline Mode\n
@@ -21,8 +21,7 @@
         Allow Reload, Refresh POS Page  without Internet and Odoo Server\n
         Allow Resume POS Session without Internet and Odoo Server
         """,
-    "live_test_url": "https://www.youtube.com/watch?v=c36bytTuZXw",
-    "price": "80",
+    "price": "120",
     "sequence": 0,
     "depends": [
         "point_of_sale",

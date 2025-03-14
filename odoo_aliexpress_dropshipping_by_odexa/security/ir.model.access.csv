@@ -1,3 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_aliexpress_product_manager,access_aliexpress_product_manager,model_aliexpress_product,odoo_aliexpress_dropshipping_group,1,1,1,1
-access_ali_product_image_manager,access_ali_product_image_manager,model_ali_product_image,odoo_aliexpress_dropshipping_group,1,1,1,1
